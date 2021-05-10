@@ -1,0 +1,340 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px 15px; */
+}
+.navleftside i{
+    /* display: inline-block; */
+    /* margin-right: 20px; */
+    font-size: 15px;
+    padding: 12px 15px;
+}
+
+.navleftside i:hover, .navrightside i:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+.navrightside i{
+    font-size: 15px;
+    padding: 12px 15px;
+}
+
+.janesbloglife {
+    text-align: center;
+    padding: 60px;
+}
+.jane {
+    font-size: 48px;
+    
+}
+.headertagline {
+    font-size: 16px;
+}
+.janesworld {
+    background-color: black;
+    color: white;
+    padding: 0 7px;
+}
+.janepicture {
+    background-image: url(img/jane.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.textoverpic {
+    display: flex;
+    color: white;
+    align-items: center;
+    height: 100vh;
+    padding-left: 25px;
+
+}
+.janes {
+    font-size: 36px;
+}
+.fashion {
+    font-size: 64px;
+}
+.subscribe {
+    background-color: rgb(204,204,204);
+    border-style: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.subscribe:hover {
+    background-color: rgb(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+.blogs {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    padding: 20px 30px;
+}
+.firstleftblog img, .secondleftblog img, .thirdleftblog img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.firstleftblog, .secondleftblog, .thirdleftblog{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    padding: 20px;
+}
+.secondleftblog, .thirdleftblog {
+    margin-top: 20px;
+}
+.picdetails {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.likereply {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid rgb(238,238,238);
+    padding-bottom: 50px;
+}
+.likereplytwo {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.likebtn {
+    text-align: left;
+    /* display: block; */
+    border: 1px solid rgb(204,204,204);
+    padding: 5px 15px;
+    font-size: 15px;
+}
+.likebtn:hover {
+    background-color: rgb(128, 128, 128, 0.4);
+    cursor: pointer;
+}
+.repliesbtn:hover {
+    background-color: rgb(128, 128, 128, 0.4);
+    color: black;
+    cursor: pointer;
+}
+
+.repliesbtn {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 5px 15px;
+}
+.number {
+    background-color: white;
+    color: black;
+    padding: 0 5px;
+    margin-left: 5px;
+    
+}
+.image img {
+    /* height: 100px; */
+    width: 90px;
+    vertical-align: middle;
+}
+.comment {
+    margin-left: 60px;
+    text-align: left;
+}
+.namecomment {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.timendate {
+    font-size: 15px;
+    font-weight: normal;
+    color: rgb(102,102,102);
+}
+.commentline {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.commentsection {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.tittlehead {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.tittletagline {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.date {
+    color: rgb(161,161,161);
+}
+.firstrightblog, .secondrightblog, .thirdrightblog, .fourthrightblog, .fifthrightblog, .sixthrightblog, .seventhrightblog {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.firstrightblog img {
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.pictext {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+.name {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.namedetails {
+    font-size: 15px;
+}
+
+.postone, .posttwo, .postthree, .postfour{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.picpart img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.secondrightblog, .thirdrightblog, .fifthrightblog, .sixthrightblog, .seventhrightblog {
+    margin-top: 20px;
+}
+/* .thirdrightblog {
+    margin-bottom: 20px;
+} */
+.posts {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.name {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.postdescription {
+    font-weight: normal;
+    font-size: 15px;
+}
+.postone:hover, .posttwo:hover, .postthree:hover, .postfour:hover {
+    background-color: rgb(128, 128, 128, 0.4);
+    cursor: pointer;
+}
+.textarea {
+
+    background-color: white;
+  
+}
+
+.textarea .ad {
+    background-color: rgb(241, 241, 241);
+    /* width: 100%;
+    height: 100%; */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 60px; */
+    margin: 20px;
+
+}   
+
+.tagpart {
+    padding: 20px;
+    /* display: inline-block; */
+    
+}
+
+.travel {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    /* margin-bottom: 50px; */
+}
+.newyork, .london, .ikea, .norway, .diy, .ideas, .baby, .family, .news, .clothing, .shopping, .sports, .games {
+    background-color: rgb(241,241,241);
+    /* margin-left: 5px; */
+    /* margin: 5px; */
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.thirdright {
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.inspic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+.inspic img {
+    width: 100%;
+}
+.socials, .mail {
+    padding: 20px;
+}
+.socials i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+.socials i:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+.mailinput {
+    padding-right: 20px !important;
+    margin-bottom: 10px;
+}
+.mailhead {
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.mailinput input{
+    width: 100%;
+    padding: 8px;
+    display: block;
+
+}
+.btnsubs button{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border-style: none;
+    font-size: 15px;
+}
+.btnsubs button:hover {
+    background-color: rgb(128, 128, 128, 0.4);
+    color: black;
+    cursor: pointer;
+}
